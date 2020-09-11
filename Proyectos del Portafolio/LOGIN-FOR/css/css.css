@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.formulario{
+    background-image: url(../imagenes/23327.png);
+    width: 300px;
+    height: 425px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius:8px;
+}
+
+
+.iconoimg{
+    width: 130px;
+    margin-left: 80px;
+    margin-top: 25px;
+    border-radius: 100px;
+}
+.formulario h3{ 
+    color: #14A6AC; 
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 20px; 
+}
+
+.Datos{
+    display: block;
+    margin: auto;
+    width: 205px;
+    height: 30px;
+    border-radius: 1px;
+    padding-left: 10px;
+    border: 0px;
+}
+
+.Etiquetas{
+    display:block;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.recordar{ 
+    margin-top: 20px;
+    color: aqua;
+    width: 15px;
+    height: 15px;
+    margin-left: 41px;
+}
+
+.uno{
+    color: white;
+    width: 95px;
+    font-size: 13px;
+    margin-left: 56px;
+    margin-top: -20px;
+}
+
+.crear{
+    color: white;
+    margin-left: 160px;
+    font-size: 15px;
+}
+
+.botonDeInicio{
+    width: 90px;
+    height: 30px;
+    margin-left: 170px;
+    background-color: #0E4C57;
+    outline: none;
+    color: #ffffff;
+    border: 0px;
+    margin-top: -15px;
+}
+
+.botonDeInicio:hover{
+    cursor: pointer;
+}

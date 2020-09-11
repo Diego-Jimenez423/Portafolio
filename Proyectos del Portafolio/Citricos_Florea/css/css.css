@@ -1,0 +1,75 @@
+body{
+margin:0;
+padding:0;
+font-family:"Trebuchet MS", Verdana, Arial, Helvetica;
+}
+
+nav {
+width: 100%;
+padding:1px;
+background:#FF6600;
+box-sizing:border-box;
+}
+nav img{
+width: 250px;
+margin-left: -10px;
+}
+
+nav ul {
+float:right;
+margin:0;
+padding:0;
+}
+nav ul li:hover{
+background:#BLACK;
+}
+
+nav ul li a{
+color:GREEN;
+text-decoration:none;
+
+}
+
+nav ul li{
+list-style:none;
+display:inline-block;
+padding:10px 70px;
+transition:.10s;
+}
+
+.slider{
+width: 75%;
+margin:auto;
+overflow: hidden;
+}
+
+.slider ul {
+display:flex;
+padding:0;
+width:300%;
+animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+width: 100%;
+list-style: none;
+}
+
+.slider img{
+width: 100%;
+
+}
+
+@keyframes cambio {
+ 0% {margin-left:0;}
+  20%{margin-left:0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -200%;}
+100% {margin-left: -200%;}
+}

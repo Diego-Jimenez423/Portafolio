@@ -1,0 +1,160 @@
+*{
+  margin: 0;/*Margen*/
+  padding: 0;/*establecer de forma abreviada el valor de una o más propiedades individuales*/
+}
+.section-index{
+  display: -ms-flexbox;/*Sirve para que se adapte a cualquier pantalla*/
+  display: -webkit-flex;/*Sirve para que cualquier contenido se adapte a la pagina*/
+  display: flex;/*Es el elemento "padre" que -contiene nuestros elementos "hijos", para definirlo se usa "flex" o "inline-flex" en la propiedad display.*/
+  flex-direction: row;  /* --ROW--> ORDENA DE IZQUIERDA A DERECHA*/
+
+  width: 100%;/*anchura*/
+  height: 500px;/*altura*/
+  margin: auto;/*Margen*/
+  background-color: #615772;/*color*/
+  justify-content: center;/*modo de colocacion del texto*/
+}
+.precio-1{
+  width: 300px;
+  height: 400px;
+  background-color: #fefbec;
+  margin-top: 75px;
+  margin-left: 50px;
+  border-radius: 3px;
+
+  display: -ms-flexbox;/*Sirve para que se adapte a cualquier pantalla*/
+  display: -webkit-flex;/*Sirve para que cualquier contenido se adapte a la pagina*/
+  display: flex;/*Es el elemento "padre" que -contiene nuestros elementos "hijos", para definirlo se usa "flex" o "inline-flex" en la propiedad display.*/
+  flex-direction: column;;  /* --COLUMN--> ORDENA DE FORMA DE COLUMNA*/
+  text-align: center;/*Centrado*/
+}
+.precio{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 60px;/*tamaño de letra*/
+  color: grey;/*color*/
+  margin-top: 10px;/*margen*/
+}
+.plan{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 40px;/*tamaño de letra*/
+  color: grey;/*colo de la letra*/
+  margin-top: 25px;/*margen*/
+}
+.titulo{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 25px;/*tamño de letra*/
+  color: black;/*color*/
+  margin-top: 25px;/*margen*/
+}
+.descripcion{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 20px;/*tamaño de letra*/
+  color: red;/*color*/
+  margin-top: 15px;/*margen*/
+}
+.boton{
+  background-color: #aeeae8/*COLOR*/;
+  padding-top: 20px;/*MARGEN*/
+  padding-bottom: 20px;/*tamaño del boton*/
+  margin-top: 20px;/*margen*/
+}
+/****** PRECIO NO 2 *********/
+.precio-2{
+  width: 300px;/*anchura*/
+  height: 400px;/*altura*/
+  background-color: #fefbec;/*color*/
+  margin-top: 75px;/*margen*/
+  margin-left: 50px;/*margen*/
+  border-radius: 3px;/*borde*/
+
+  display: -ms-flexbox;/*Sirve para que se adapte a cualquier pantalla*/
+  display: -webkit-flex;/*Sirve para que cualquier contenido se adapte a la pagina*/
+  display: flex;/*Es el elemento "padre" que -contiene nuestros elementos "hijos", para definirlo se usa "flex" o "inline-flex" en la propiedad display.*/
+  flex-direction: column;;  /* --COLUMN--> ORDENA DE FORMA DE COLUMNA*/
+  text-align: center;/*Centrado*/
+}
+.precio{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 60px;/*tamaño*/
+  color: grey;/*color*/
+  margin-top: 10px;/*MARGEN*/
+}
+.plan{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 40px;/*tamaño de letra*/
+  color: grey;/*COLOR*/
+  margin-top: 25px;/*MARGEN*/
+}
+.titulo{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 25px;/*tamaño de letra*/
+  color: black;/*COLOR*/
+  margin-top: 25px;/*MARGEN*/
+}
+.descripcion{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 20px;/*tamaño de letra*/
+  color: red;/*color*/
+  margin-top: 15px;/*MARGEN*/
+}
+.boton{
+  background-color: #aeeae8;/*color*/
+  padding-top: 20px;/*MARGEN*/
+  padding-bottom: 20px;/*margen del boton*/
+  margin-top: 20px;/*margen*/
+}
+/****** PRECIO NO 2 *********/
+.precio-3{
+  width: 300px;/*anchura*/
+  height: 400px;/*altura*/
+  background-color: #fefbec;/*color*/
+  margin-top: 75px;/*margen*/
+  margin-left: 50px;/*margen*/
+  border-radius: 3px;/*borde*/
+
+  display: -ms-flexbox;/*Sirve para que se adapte a cualquier pantalla*/
+  display: -webkit-flex;/*Sirve para que cualquier contenido se adapte a la pagina*/
+  display: flex;/*Es el elemento "padre" que -contiene nuestros elementos "hijos", para definirlo se usa "flex" o "inline-flex" en la propiedad display.*/
+  flex-direction: column;;  /* --COLUMN--> ORDENA DE FORMA DE COLUMNA*/
+  text-align: center;/*Centrado*/
+}
+.precio{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 60px;/*tamaño de letra*/
+  color: grey;/*color*/
+  margin-top: 10px;/*margen*/
+}
+.plan{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 40px;/*tamaño de letra*/
+  color: grey;/*color*/
+  margin-top: 25px;/*margen*/
+}
+.titulo{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 25px;/*tamaño de la letra*/
+  color: black;/*color*/
+  margin-top: 25px;/*MARGEN*/
+}
+.descripcion{
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 20px;/*tamaño de letra*/
+  color: red;/*color*/
+  margin-top: 15px;/*margen*/
+}
+.boton{
+  background-color: #aeeae8;/*color*/
+  padding-top: 20px;/*margen*/
+  padding-bottom: 20px;/*margen del boton*/
+  margin-top: 20px;/*MARGEN*/
+}
+.section-index article: hover {/*) representa una sección genérica de un documento. */
+  -webkit-box-shadow: -1px -1px 34px 1px rgba(0,0,0,0.73);/*degradado*/
+-moz-box-shadow: -1px -1px 34px 1px rgba(0,0,0,0.73);/*degradado*/
+box-shadow: -1px -1px 34px 1px rgba(0,0,0,0.73);/*degradado*/
+}
+@media only screen and (max-width:767) {/*es el desplazamiento*/
+  .section-index/*) representa una sección genérica de un documento. */
+
+
+}

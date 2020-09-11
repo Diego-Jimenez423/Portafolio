@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.section-index{
+  display: -webkit-flex; /*que el contenido de los buscadores se adapten*/
+  display: -ms-flexbox;
+  display: flex; /*que sea flexible*/
+  flex-direction: row;  /*indicaba que el contenido se valla de izquierda a la derecha*/
+  width: 100%;
+  height: 370px;
+  background:white;
+  margin: auto;
+  margin-top: 70px;
+}
+.pepe{
+  display: -webkit-flex; /*que el contenido de los buscadores se adapten*/
+  display: -ms-flexbox;
+  display: flex; /*que sea flexible*/
+  flex-direction: row;  /*indicaba que el contenido se valla de izquierda a la derecha*/
+  width: 400px;
+  height: 270px;
+  background: yellow;
+  margin-top: -440px;
+  margin-left: 50px;
+}
+.images{
+  width: 500px;
+  height: 270px;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+.xD{
+  display: -webkit-flex; /*que el contenido de los buscadores se adapten*/
+  display: -ms-flexbox;
+  display: flex; /*que sea flexible*/
+  flex-direction: row;  /*indicaba que el contenido se valla de izquierda a la derecha*/
+  width: 900px;
+  height: 270px;
+  background: black;
+  margin-top: -270px;
+  margin-left: 490px;
+}
+.slider {
+	width: 700px;
+  height: 270px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 5s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.imgs{
+  width: 700px;
+  height: 270px;
+}
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.circulo{
+  width: 400px;
+  height: 135px;
+  background: black;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.image{
+  width: 465px;
+  height: 400px;
+}
+.triangulo{
+  width: 0px;
+  height: 0px;
+  background: white;
+  margin: auto;
+  margin-top: 265px;
+  margin-left: 0px;
+}
+.imagr{
+  width: 240px;
+  height: 112px;
+  margin-top: 60%;
+}
+.upan{
+  width: 0px;
+  height: 0px;
+  background: white;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 240px;
+}
+.imagg{
+  width: 225px;
+  height: 112px;
+  margin-top: 60%;
+}
+.downlawnd{
+  width: 500px;
+  height: 260px;
+  background: white;
+  margin: auto;
+  margin-top: -235px;
+  margin-left: 465px;
+}
+p{
+align = center;
+font-size: 19px;
+text-align: center;
+font-style: oblique;
+font-family: fantasy;
+
+}
+
+.smartTV{
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  margin-left: 465px;
+  margin-top: -410px;
+}
+.imag{
+  width: 555px;
+  height: 305px;
+  margin-top: -15px;
+}
+.rigido{
+  width: 445px;
+  height: 265px;
+  background: white;
+  margin: 0;
+  margin-top:-250px ;
+  margin-left: 70%;
+}
+.ima{
+  width: 405px;
+  height: 530px;
+  margin-left: 52px;
+  margin-top: -15px;
+}

@@ -1,0 +1,14 @@
+*{
+  margin: 0;/*margen*/
+  padding: 0;/*crea un espacion aparte del margen*/
+}
+footer{
+  display: -webkit-flex;/*Sirve para que cualquier contenido se adapte a la pagina*/
+  display: -ms-flexbox;/*Sirve para que se adapte a cualquier pantalla*/
+  display: flex;/*Es el elemento "padre" que -contiene nuestros elementos "hijos", para definirlo se usa "flex" o "inline-flex" en la propiedad display.*/
+  flex-direction: row;  /* --ROW--> ORDENA DE IZQUIERDA A DERECHA*/
+
+  width: 100%;/*anchura*/
+  height: 40px;/*altura*/
+  background-color: coral;/*color*/
+}

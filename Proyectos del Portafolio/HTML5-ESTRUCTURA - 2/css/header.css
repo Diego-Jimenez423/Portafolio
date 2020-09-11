@@ -1,0 +1,26 @@
+﻿*{
+  margin: 0;/*margen*/
+  padding: 0;/*crea un espacion aparte del margen*/
+}
+header{
+  width: 100%;/*anchura*/
+  height: 200px;/*altura*/
+  background-color: #f38181;/*color*/
+}
+.titulodelapagina{
+color: white;/*color*/
+font-family: 'Roboto', sans-serif;/*tipo de letra*/
+font-size: 30px;/*tamaño de letra*/
+text-align: center;/*posicion del titulo*/
+padding-top: 60px/*margen del titulo*/
+
+}
+.redes-socailes{
+  width: 200px;/*anchura*/
+  height: 40px;/*altura*/
+  padding-top: 10px;/*Margen*/
+  margin:auto;/*margen*/
+}
+.redes-sociales img{
+  width: 30px;/*anchura*/
+}

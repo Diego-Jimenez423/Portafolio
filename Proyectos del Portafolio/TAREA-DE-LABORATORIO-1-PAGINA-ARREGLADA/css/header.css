@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.titulo{
+  width: 104.3%;
+  height: 40px;
+  background: lightgreen;
+  margin-left: 330px;
+  margin: auto;
+  font-size: 200%;
+  text-align: center;
+  font-style: italic;
+  font-family: fantasy;
+}
+.titulo2{
+  width: 104.3%;
+  height: 40px;
+  background: gray;
+  margin-left: 330px;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 200%;
+  text-align: center;
+  font-style: italic;
+  font-family: fantasy;
+}
+
+@media only screen and (max-width:767px){
+  .section-index{
+    width: 100%;
+  }

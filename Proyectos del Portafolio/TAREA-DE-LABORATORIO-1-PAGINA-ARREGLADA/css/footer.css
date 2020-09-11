@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  display: -webkit-flex; /*que el contenido de los buscadores se adapten*/
+  display: -ms-flexbox;
+  display: flex; /*que sea flexible*/
+  flex-direction: row;  /*indicaba que el contenido se valla de izquierda a la derecha*/
+  width: 104.3%;
+  height: 40px;
+  background: black;
+  margin-top: 250px;
+}
